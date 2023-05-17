@@ -1,0 +1,19 @@
+owner.id 
+    -- This can be used to confirm the user created this playlist
+name 
+    -- name of the playlist
+public 
+    - Does the user want me to see public playlist?
+snapshot_id 
+tracks.items.track.name 
+    -- name of the song
+    -- where tracks is an object 
+    -- items conains data about each song 
+tracks.items[i].track.id 
+    -- song id of the track
+tracks.items[i].track.artists[i]. name 
+    -- artist name 
+tracks.items[i].track.artists[i].id 
+    -- artist id
+tracks.items[i].track.added_at 
+    -- displays timestamp of when the track was added to the playlist
